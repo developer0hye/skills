@@ -1,6 +1,6 @@
 ---
 name: cross-platform-diagrams
-description: Create diagrams, flowcharts, and architecture drawings that render correctly on any platform (Confluence, Slack, terminals, etc.). Use when creating diagrams, flowcharts, architecture drawings, or when the user asks for visual representations in documentation.
+description: Create diagrams, flowcharts, and architecture drawings that render correctly on any platform (Confluence, Slack, terminals, etc.). MANDATORY: Read this skill BEFORE creating ANY visual representation (boxes, diagrams, flowcharts, ASCII art, etc.).
 ---
 
 # Cross-Platform Diagrams
@@ -102,3 +102,4 @@ Non-ASCII text (Korean, Chinese, Japanese, etc.) breaks alignment in most platfo
                           |  +----------+   |
                           +-----------------+
 ```
+
