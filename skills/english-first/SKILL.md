@@ -42,6 +42,13 @@ Write the following in English by default:
    - Setup instructions
    - Environment variable names
 
+5. **Documentation examples and code samples**
+   - Example code snippets
+   - Sample CLI commands and arguments
+   - Example prompts and queries in documentation
+   - Tutorial code examples
+   - Demo scripts and usage examples
+
 ## When to Use Other Languages
 
 **ONLY** use languages other than English when:
@@ -50,6 +57,10 @@ Write the following in English by default:
 - The user is writing content meant for a specific language audience
 - String literals or user-facing content requires localization
 - The project has established conventions for non-English content
+
+**Important distinction:**
+- **Documentation examples** (code samples, CLI examples): Always in English
+- **Actual user input** (real CLI usage, user queries): User's choice of language
 
 ## Examples
 
@@ -124,6 +135,26 @@ function calculateDistance(point1, point2) {
 }
 ```
 
+### Scenario 4: Documentation examples with CLI commands
+
+```bash
+# Good - Documentation example in English
+./llama-mtmd-cli \
+  -hf Qwen/Qwen3-VL-4B-Instruct-GGUF \
+  --image frame1.jpg,frame2.jpg,frame3.jpg \
+  -p 'Analyze these frames for violent behavior.' \
+  -ngl 99
+
+# Bad - Documentation example in other language
+./llama-mtmd-cli \
+  -hf Qwen/Qwen3-VL-4B-Instruct-GGUF \
+  --image frame1.jpg,frame2.jpg,frame3.jpg \
+  -p '이 프레임들을 분석해주세요.' \
+  -ngl 99
+```
+
+**Note:** When actually running the command, users can input prompts in any language they prefer. The rule applies to documentation examples only.
+
 ## Exceptions
 
 These can remain in other languages:
@@ -140,5 +171,7 @@ These can remain in other languages:
 - ✅ Documentation: English
 - ✅ Commit messages: English
 - ✅ Technical names: English
+- ✅ Documentation examples (CLI commands, sample prompts): English
 - ❌ User-facing strings: May vary based on audience
 - ❌ Localized content: Use target language
+- ❌ Actual user input (when running commands): User's choice
