@@ -1,6 +1,6 @@
 ---
 name: cross-platform-diagrams
-description: Create diagrams, flowcharts, and architecture drawings that render correctly on any platform (Confluence, Slack, terminals, etc.). MANDATORY: Read this skill BEFORE creating ANY visual representation (boxes, diagrams, flowcharts, ASCII art, etc.).
+description: "Create diagrams, flowcharts, and architecture drawings that render correctly on any platform (Confluence, Slack, terminals, etc.). MANDATORY: Read this skill BEFORE creating ANY visual representation (boxes, diagrams, flowcharts, ASCII art, etc.)."
 ---
 
 # Cross-Platform Diagrams
