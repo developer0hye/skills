@@ -102,4 +102,3 @@ Non-ASCII text (Korean, Chinese, Japanese, etc.) breaks alignment in most platfo
                           |  +----------+   |
                           +-----------------+
 ```
-
