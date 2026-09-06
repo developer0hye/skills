@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grounded Technical Figures"
+  short_description: "Build accurate technical figures from verified sources"
+  default_prompt: "Use $grounded-technical-figures to analyze the sources, draft standalone image prompts, and review the resulting technical figures."
